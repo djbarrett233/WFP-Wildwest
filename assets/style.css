@@ -11,48 +11,47 @@ body {
     position: relative;
 }
  
-#cover-text,#cover-text h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
 }
+
+
+
 #sunset1  {
     height: 600px;
     width: 100%;
-    background: url('../images/sunset1.jpg') no-repeat center center;
+    background: url('../images/sunset1.jpg') no-repeat center center; 
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
-
+    animation-fill-mode: forwards;    
+     
    
 }
     /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
-        transform: scale(1);
-    }
+        transform: scale(1);}
     to{
-        transform: scale(1.1);
+        transform: scale(1.1);}
     }
-
     
-
-    #cover-text{
-        font-size: 130%;
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
     
-        width: 300px;
-        height: 200px;
+  
     
-        padding-top: 40px;
-        padding-left: 10px;
     
-        background-color: rgba(241, 109, 107, 0.7); 
-    
-        bottom: 30px;
-        right: 150px;
-    
-        position: absolute;
+    #cover-text {
+        font-size : 130%;
+        font-family : Oswald, sans-serif;
+        text-transform : uppercase;
+        letter-spacing : 4px;
+        width : 300px;
+        height : 175px;
+        padding-top : 40px;
+        padding-left : 10px;
+        
+        bottom : 400px;
+        left : 50px;
+        position : relative;
     }
