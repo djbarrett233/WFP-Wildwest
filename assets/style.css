@@ -9,7 +9,6 @@ body {
     background-color: rgb(214, 193, 166);
     
 }
-
 /* headings and logo */
 
 h1, h2 {
@@ -128,6 +127,10 @@ h1, h2 {
         margin: 0 auto;
        
         }
+#forecast-video {
+        width: 33%;
+        margin: 0 auto;
+}
 hr {
         border-top: 1px solid #3a3a3a;
         width: 100%;
@@ -172,11 +175,10 @@ hr {
     }
 
 #circle-cover-bg {
-        background: url(../images/lonecowboy.png); no-repeat center center; 
+        background: url(../images/lonecowboy.png) no-repeat center center; 
         height: 100%;
         border-radius: 50%;
     }
-
    /* club-ethos-mobile-alignment */
     #club-ethos {
         width: 90%;
@@ -196,6 +198,7 @@ hr {
         text-align: center;
         padding: 0 20px;
     }
+   
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -226,11 +229,10 @@ hr {
     hr {
         display: none;
     }
-}
-
+    
 
     /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {}
 
     #menu {
         clear: left;
@@ -263,7 +265,8 @@ hr {
         text-align: center;
         padding: 0 20px;
     }
-}
+}   
+    
 
      /* Forecast Page */
 #forecast1  {
@@ -279,8 +282,9 @@ hr {
         
             position: relative;
           }
+
    /* Scheduling Page */       
-#schedule1  {
+    #schedule1  {
         height: 800px;
         width: 100%;
         background: url(../images/03compassmap.jpg) no-repeat center center; 
@@ -295,7 +299,7 @@ hr {
               }     
     /* RTO Page */
   
-#rto1  {
+    #rto1  {
         height: 800px;
         width: 100%;
         background: url(../images/02cattle.jpg) no-repeat center center; 
@@ -309,10 +313,10 @@ hr {
         position: relative;
         }  
 
-#analysis1  {
+    #analysis1  {
         height: 800px;
         width: 100%;
-        background: url(../images/Barstool.png) no-repeat center center; 
+        background: url(../images/10-barstool.jpg) no-repeat center center; 
                     
         }
         #analysis-outer {
@@ -325,7 +329,7 @@ hr {
 
 
  /* footer */ 
- footer { 
+    footer { 
             position:fixed;
             left:0px;
             bottom:0px;
@@ -333,7 +337,7 @@ hr {
             width:100%;
             background-color: rgb(212, 171, 117);
             
- }
+        }
               
         .footer-links {
             text-align: center;
@@ -350,5 +354,4 @@ hr {
             padding: 5%;
             color: #3a3a3a;
             margin-top: 10%;
-            }   
- 
+        }
