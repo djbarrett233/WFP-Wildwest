@@ -75,7 +75,7 @@ h1, h2 {
 #sunset1  {
     height: 900px;
     width: 100%;
-    background: url(../images/Sunset2.png) no-repeat center center; 
+    background: url(../images/01sunset.jpg) no-repeat center center; 
 
     /* animates zoom effect on home page */
     animation-name: hero-zoom;
@@ -269,7 +269,7 @@ hr {
 #forecast1  {
         height: 800px;
         width: 100%;
-        background: url(../images/Scout.png) no-repeat center center; 
+        background: url(../images/07-bino.jpg) no-repeat center center; 
     
           }
           #forecast-outer {
@@ -283,7 +283,7 @@ hr {
 #schedule1  {
         height: 800px;
         width: 100%;
-        background: url(../images/schedulers.png) no-repeat center center; 
+        background: url(../images/03compassmap.jpg) no-repeat center center; 
         
         }
         #schedule-outer {
@@ -298,7 +298,7 @@ hr {
 #rto1  {
         height: 800px;
         width: 100%;
-        background: url(../images/cattle.jpg) no-repeat center center; 
+        background: url(../images/02cattle.jpg) no-repeat center center; 
                 
                 }
         #rto-outer {
