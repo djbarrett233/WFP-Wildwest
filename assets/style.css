@@ -174,3 +174,26 @@ h1, h2 {
         height: 100%;
         border-radius: 50%;
     }
+
+    /* footer */ 
+
+    footer {
+        height: 150px;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+
+    .footer-links > li {
+        display: inline;
+    }
+
+    }
+    .i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+        
+    }
