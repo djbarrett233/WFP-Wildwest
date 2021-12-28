@@ -45,24 +45,24 @@ h1, h2 {
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
-}
+    }
 
-.active {
+    .active {
     border-bottom: 1px solid #3a3a3a;
-}
+    }
 
-/* Sunset image and cover text */
+    /* Sunset image and cover text */
 #sunset-outer {
     height: 600px;
     width: 100%;
     overflow: hidden; 
 
     position: relative;
-}
+    }       
  
 #cover-text, #cover-text h2 {
     color: #fff;
-}
+    }
 
 
 
@@ -77,9 +77,9 @@ h1, h2 {
     animation-fill-mode: forwards;    
      
    
-}
+    }
     /* creates the level of zoom for hero image */
-@keyframes hero-zoom {
+    @keyframes hero-zoom {
     from{
         transform: scale(.9);}
     to{
@@ -90,7 +90,7 @@ h1, h2 {
   
     
     
-    #cover-text {
+#cover-text {
         font-size : 130%;
         font-family : Oswald, sans-serif;
         text-transform : uppercase;
@@ -106,59 +106,59 @@ h1, h2 {
         }
 
     /* club-ethos */ 
-    #club-ethos {
+#club-ethos {
         height: 600px;
         }
-    #left-about {
+#left-about {
         padding-top: 30px;
         width: 33%;
         float: left;
         
         }
-    #right-about {
+#right-about {
         padding-top: 30px;
         width: 33%;
         float: right;
        
         }
-    #center-about {
+#center-about {
         width: 33%;
         margin: 0 auto;
        
         }
-    hr {
+hr {
         border-top: 1px solid #3a3a3a;
         width: 100%;
         margin: 5px 0;
     }
-    .left-about-heading {
+.left-about-heading {
         width: 60%;
         float: right;
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
     }
-    .right-about-heading {
+.right-about-heading {
         width: 60%;
         float: left;
         line-height: 20px;
         clear: both;
         margin-bottom: 50px;
     }
-    .right-about-heading h2 {
+.right-about-heading h2 {
         text-align: right;
     }
-    .right-about-heading p {
+.right-about-heading p {
         text-align: right;
     }
 
-    #welcome {
+#welcome {
         text-align: center;
         margin: 20px 0;
         font-size: 280%;
     }
 
-    #circle-container {
+#circle-container {
         width: 300px;
         height: 300px;
         padding: 30px;
@@ -169,7 +169,7 @@ h1, h2 {
         margin: 0 auto;
     }
 
-    #circle-cover-bg {
+#circle-cover-bg {
         background: url(../images/lonecowboy.png); no-repeat center center; 
         height: 100%;
         border-radius: 50%;
@@ -177,15 +177,20 @@ h1, h2 {
 
     /* footer */ 
 
-    footer {
+footer {
         height: 150px;
+        position: fixed;
+        bottom: 0;
+        left: 40%;
+        box-sizing: border-box;
+       
     }
 
-    .footer-links {
+.footer-links {
         text-align: center;
     }
 
-    .footer-links > li {
+.footer-links > li {
         display: inline;
     }
 
@@ -197,10 +202,11 @@ h1, h2 {
         color: #3a3a3a;
         margin-top: 10%;
         
+        
     }
 
     /* Forecast Page */
-    #forecast1  {
+#forecast1  {
         height: 800px;
         width: 100%;
         background: url(../images/Scout.png) no-repeat center center; 
@@ -212,3 +218,22 @@ h1, h2 {
             overflow: hidden; 
         
             position: relative;
+          }
+#schedule1  {
+        height: 600px;
+        width: 100%;
+        background: url(../images/schedulers.png) no-repeat center center; 
+        
+        }
+        #schedule-outer {
+            height: 600px;
+            width: 100%;
+            overflow: hidden; 
+            
+            position: relative;
+              }     
+
+
+
+    
+ 
