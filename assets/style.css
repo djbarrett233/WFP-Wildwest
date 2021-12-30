@@ -78,7 +78,7 @@ h1, h2 {
 
     /* animates zoom effect on home page */
     animation-name: hero-zoom;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;    
      
    
@@ -145,7 +145,7 @@ hr {
         float: right;
         line-height: 20px;
         clear: both;
-        margin-bottom: 50px;
+        margin-bottom: 120px;
     }
 .right-about-heading {
         width: 60%;
@@ -274,7 +274,7 @@ hr {
 
      /* Forecast Page */
 #forecast1  {
-        height: 800px;
+        height: 500px;
         width: 100%;
         background: url(../images/07-bino.jpg) no-repeat center center; 
     
@@ -297,13 +297,13 @@ hr {
 
    /* Scheduling Page */       
     #schedule1  {
-        height: 800px;
+        height: 500px;
         width: 100%;
         background: url(../images/03compassmap.jpg) no-repeat center center; 
         
         }
     #schedule-outer {
-            height: 600px;
+            height: 500px;
             width: 110%;
             overflow: hidden; 
             
@@ -319,13 +319,13 @@ hr {
     /* RTO Page */
   
     #rto1  {
-        height: 800px;
+        height: 500px;
         width: 100%;
-        background: url(../images/02cattle.jpg) no-repeat center center; 
+        background: url(../images/15-group2.png) no-repeat center center; 
                 
                 }
         #rto-outer {
-            height: 600px;
+            height: 500px;
             width: 100%;
             overflow: hidden; 
                     
@@ -333,13 +333,13 @@ hr {
         }  
 
     #analysis1  {
-        height: 800px;
+        height: 500px;
         width: 100%;
-        background: url(../images/10-barstool.jpg) no-repeat center center; 
+        background: url(../images/14-campfire-wide.png) no-repeat center center; 
                     
         }
         #analysis-outer {
-            height: 600px;
+            height: 500px;
             width: 100%;
             overflow: hidden; 
                         
