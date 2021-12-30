@@ -27,7 +27,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    background-color: #3a3a3a;
+   
 }
 
 #menu, #logo {
@@ -56,7 +56,7 @@ h1, h2 {
     /* Sunset image and cover text */
 #sunset-outer {
     height: 800px;
-    width: 110%;
+    width: 100%;
     overflow: hidden; 
 
     position: relative;
@@ -106,8 +106,8 @@ h1, h2 {
         position : relative;
         }
 
-    /* club-ethos */ 
-#club-ethos {
+    /* page-intro - First paragarph */ 
+#page-intro {
         height: 600px;
         }
 #left-about {
@@ -182,7 +182,7 @@ hr {
    /* club-ethos-mobile-alignment */
     #page-intro {
         width: 90%;
-        height: 1200px;
+        height: 1000px;
         margin: 0 auto;
     }
     
@@ -202,7 +202,7 @@ hr {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    #club-ethos {
+    #page-intro {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -246,7 +246,7 @@ hr {
         left: 0;
     }
 
-    #club-ethos {
+    #page-intro {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
