@@ -134,10 +134,7 @@ h1, h2 {
     text-align: center;
 
 }
-        #forecast-video {
-        width: 33%;
-        margin: 0 auto;
-}
+
 hr {
         border-top: 1px solid #3a3a3a;
         width: 100%;
@@ -289,6 +286,14 @@ hr {
         
             position: relative;
           }
+#forecast-video {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 33%;
+    width: 600%;
+    height: 400px;
+    align-content: center;
+    }
 
    /* Scheduling Page */       
     #schedule1  {
@@ -297,13 +302,20 @@ hr {
         background: url(../images/03compassmap.jpg) no-repeat center center; 
         
         }
-        #schedule-outer {
+    #schedule-outer {
             height: 600px;
             width: 110%;
             overflow: hidden; 
             
             position: relative;
               }     
+    .image1 {
+        padding-top: 10px;
+        padding-right: 50px;
+        padding-bottom: 150px;
+        padding-left: 100px;
+    }
+  
     /* RTO Page */
   
     #rto1  {
