@@ -124,6 +124,16 @@ Once these Errors and Warnings were corrected the HTML code passed successfully 
 ##### CSS
 No errors were found when passing through the official (Jigsaw) validator.
 
+##### Responsivemess in Lighthouse 
+For Accessabilty I received 2 different scores 79% and 100% after running the report at different times. 
+
+Both Runs: 
+
+<img src="./images/readme.img/Accessibility.png" width="400" height="400"> 
+
+<img src="./images/readme.img/Accessability 2.png" width="600" height="200"> 
+
+
 ### Unfixed Bugs -  
 Some minor tweaking of alignment values for placement of paragraphs and video. These are a result of inconstent image sizes downloaded from Pexels.com.  
 
