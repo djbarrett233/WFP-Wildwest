@@ -54,6 +54,8 @@ h1, h2 {
     }
 
     /* Sunset image and cover text */
+
+
 #sunset-outer {
     height: 800px;
     width: 100%;
@@ -101,14 +103,17 @@ h1, h2 {
         padding-top : 40px;
         padding-left : 10px;
         
+        
         bottom : 700px;
-        left : 400px;
+        right : 400px;
         position : relative;
         }
 
     /* page-intro - First paragarph */ 
 #page-intro {
+        width: 90%;
         height: 600px;
+        margin: 0 auto;
         }
 #left-about {
         padding-top: 30px;
@@ -184,7 +189,9 @@ hr {
         border-radius: 50%;
     }
    /* club-ethos-mobile-alignment */
-    #page-intro {
+  
+   
+   #page-intro {
         width: 90%;
         height: 1000px;
         margin: 0 auto;
@@ -206,6 +213,7 @@ hr {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+   
     #page-intro {
         width: 65%;
         height: 1200px;
@@ -237,7 +245,7 @@ hr {
 
     /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {}
-
+  
     #menu {
         clear: left;
         float: left;
@@ -354,9 +362,7 @@ hr {
             bottom:0px;
             height:100px;
             width:100%;
-            background-color: rgb(212, 171, 117);
-            
-            
+            background-color: rgb(212, 171, 117);          
         }
               
         .footer-links {
@@ -375,3 +381,4 @@ hr {
             color: #3a3a3a;
             margin-top: 10%;
         }
+    
